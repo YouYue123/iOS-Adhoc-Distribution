@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: AppDistribution
+  host: appdistribution
+  disk_quota: 1024M
