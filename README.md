@@ -1,4 +1,5 @@
 # AdHoc iOS Distribution Website Starter
+[![Build Status](https://travis-ci.org/YouYue123/iOS-Adhoc-Distribution.svg?branch=master)](https://travis-ci.org/YouYue123/iOS-Adhoc-Distribution)
 
 Use website to share your iOS App with friends!!!
 
