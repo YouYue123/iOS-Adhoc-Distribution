@@ -3,7 +3,7 @@
 
 Use website to share your iOS App with friends!!!
 
-![image](https://s24.postimg.org/kxwtqlh7p/appdemo.png)
+![image](https://s27.postimg.org/avzlqtipf/appdemo.png)
 
 ## Motivation
 
