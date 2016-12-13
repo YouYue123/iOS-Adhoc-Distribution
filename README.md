@@ -1,4 +1,4 @@
-# Customized AdHoc iOS Distribution Starter
+# AdHoc iOS Distribution Website Starter
 
 Use website to share your iOS App with friends!!!
 
