@@ -1,46 +1,102 @@
+
 <!DOCTYPE html>
 <html>
-
-  <head>
-    <title>MyApp</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
-
-    <link rel="stylesheet" href="stylesheets/style.css">
-  </head>
-
-  <body>
-  	<!-- <img src="images/ipad_air_2.jpg" style="width : 1024px; height : 1024px; margin-left : -150px;float: left;"> -->
-    <div style="margin-top: 2%; margin-left: 2%">
-	  	<h1>iPad App For SCB</h1>
-	  	<h2>An app makes everything different</h2>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <!-- Site Properties -->
+  <title>Homepage - Semantic</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+  <!-- Following Menu -->
+  <div class="ui large top fixed hidden menu">
+    <div class="ui container">
+        <a class="active item">Home</a>
+        <a class="item">Pricing</a>
+        <a class="item">Team</a>
+        <a class="item">Demo</a>
     </div>
-    <button onclick="window.location.href='itms-services://?action=download-manifest&url=https://appdistribution.au-syd.mybluemix.net/app/scb-poc'" id="download" class="huge teal ui button" style="float: right; margin-right: 5%; margin-top: -5%;">
-    			   
-    			   <i class="download icon"></i>
-	               Download
-	 
-	 </button>
+  </div>
+  <!-- Sidebar Menu -->
+  <div class="ui vertical inverted sidebar menu">
+    <a class="active item">Home</a>
+    <a class="item">Pricing</a>
+    <a class="item">Team</a>
+    <a class="item">Demo</a>
+  </div>
+  <!-- Page Contents -->
+  <div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment" style="
+      background-image: url(./images/back.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      ">
 
-    <div class="ui grid" style="margin-top:  1%; margin-left: 30%;" >
-         <div class="one wide column">
-         	<img src="images/ipad.png">
+      <div class="ui container">
+        <div class="ui large secondary inverted pointing menu">
+          <a class="toc item">
+            <i class="sidebar icon"></i>
+          </a>
+          <a class="active item">Home</a>
+          <a class="item">Pricing</a>
+          <a class="item">Team</a>
+          <a class="item">Demo</a>
+        </div>
+      </div>
+
+      <div class="ui text container">
+        <h1 class="ui inverted header">
+          Share Your App
+        </h1>
+        <h2>Made by You Yue</h2>
+        <div >
+
+        <button onclick="window.location.href='itms-services://?action=download-manifest&url=https://app-distribution.mybluemix.net/app/bpautomation'" id="download" class="huge blue ui button">
+
+               <i class="download icon"></i>
+                   Download
+         </button>
          </div>
+      </div>
+
     </div>
-
-    <!-- <table>
-      <tr>
-
-        <td style= "width:30%;">
-          <img class = "newappIcon" src="images/newapp-icon.png">
-        <td>
-
-          <h1><a href="itms-services://?action=download-manifest&url=https://appdistribution.au-syd.mybluemix.net/app/scb-poc">App Here</a><h1>
-
-    </table> -->
-  </body>
+    <div class="ui inverted vertical footer segment">
+      <div class="ui container">
+        <div class="ui stackable inverted divided equal height stackable grid">
+          <div class="three wide column">
+            <h4 class="ui inverted header">About</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Sitemap</a>
+              <a href="#" class="item">Contact Us</a>
+              <a href="#" class="item">Religious Ceremonies</a>
+              <a href="#" class="item">Gazebo Plans</a>
+            </div>
+          </div>
+          <div class="three wide column">
+            <h4 class="ui inverted header">Services</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Banana Pre-Order</a>
+              <a href="#" class="item">DNA FAQ</a>
+              <a href="#" class="item">How To Access</a>
+              <a href="#" class="item">Favorite X-Men</a>
+            </div>
+          </div>
+          <div class="seven wide column">
+            <h4 class="ui inverted header">Footer Header</h4>
+            <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
 
 </html>

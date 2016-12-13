@@ -20,14 +20,7 @@ var app = express();
 app.use(express.static(__dirname + '/public'));
 
 var plistFilePath = path.join(__dirname, '/app/manifest.plist');
-var ipaFilePath = path.join(__dirname, '/app/scb-poc.ipa');
-
-
-app.get('/app/scb-poc',function(req,res){
-
-	  res.set('Content-Type', 'text/xml plist');
-	  res.sendFile(plistFilePath);
-});
+var ipaFilePath = path.join(__dirname, '/app/wealthidea.ipa');
 
 app.get('/app/scb-poc',function(req,res){
 
@@ -35,7 +28,7 @@ app.get('/app/scb-poc',function(req,res){
 	  res.sendFile(plistFilePath);
 });
 
-app.get('/app/scb-poc.ipa',function(req,res){
+app.get('/app/wealthidea.ipa',function(req,res){
 
 		res.set('Content-Type','application/octet-stream ipa');
 		res.sendFile(ipaFilePath);
