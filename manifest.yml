@@ -3,6 +3,6 @@ applications:
   memory: 256M
   instances: 1
   domain: au-syd.mybluemix.net
-  name: AppDistribution
-  host: appdistribution
+  name: sample-ios-distribution
+  host: sample-ios-distribution
   disk_quota: 1024M
