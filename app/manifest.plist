@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://sample-ios-distribution.au-syd.mybluemix.net/app/wealthidea.ipa</string>
+					<string>https://sample-ios-distribution.au-syd.mybluemix.net/app/TestDistribution.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>

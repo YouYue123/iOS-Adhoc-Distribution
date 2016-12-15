@@ -1,22 +1,17 @@
 {
-	"name": "iOS-Distribution-Sample",
-	"version": "1.0.0",
-	"description": "A sample ios distribution website",
-	"scripts": {
-		"start": "node app.js"
-	},
-  /*
-		change your app name below
-	*/
-	"config": {
-		"appName": "TestDistribution"
-	},
-	"dependencies": {
-		"express": "4.12.x",
-		"cfenv": "1.0.x"
-	},
-	"repository": {},
-	"engines": {
-		"node": "0.12.x"
-	}
+  "name": "iOS-Distribution-Sample",
+  "version": "1.0.0",
+  "description": "A sample ios distribution website",
+  "scripts": {
+    "start": "node --harmony app.js"
+  },
+  "dependencies": {
+    "cfenv": "1.0.x",
+    "ejs": "^2.5.5",
+    "express": "4.12.x"
+  },
+  "repository": {},
+  "engines": {
+    "node": "0.12.x"
+  }
 }
