@@ -1,7 +1,9 @@
 # AdHoc iOS Distribution Website Starter
 [![Build Status](https://travis-ci.org/YouYue123/iOS-Adhoc-Distribution.svg?branch=master)](https://travis-ci.org/YouYue123/iOS-Adhoc-Distribution)
 
-Use website to share your iOS App with friends!!!
+Instruction for end-to-end flow for AdHoc distribution website(Chinese version) -- [Link](https://youyue123.github.io/tech/2016/12/14/use-Node.js-Bluemix-build-iOS-distribution-website.html)
+
+## [Demo](https://sample-ios-distribution.au-syd.mybluemix.net/)
 
 ![image](https://s27.postimg.org/avzlqtipf/appdemo.png)
 
@@ -29,8 +31,15 @@ For AdHoc distribution, you need to sign your app using one of the following way
 
 After signing your app, by following [this process](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/TestingYouriOSApp/TestingYouriOSApp.html#//apple_ref/doc/uid/TP40012582-CH8-SW1), you will get an ipa file and a mainfest file.
 
-## Installation
-
-## Configuration and Usage
-
+## Usage
+1. Download the starter code here
+2. change config.js as yours
+```javascript
+const config = {
+  APP_NAME: 'TestDistribution',
+  WEB_URL: 'https://sample-ios-distribution.au-syd.mybluemix.net'
+}
+```
+3. replace the ipa and mainfest file in folder APP/
 ## Issue
+Feel free to give PR and issue comment
