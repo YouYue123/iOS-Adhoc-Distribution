@@ -1,7 +1,7 @@
 # AdHoc iOS Distribution Website Starter
 [![Build Status](https://travis-ci.org/YouYue123/iOS-Adhoc-Distribution.svg?branch=master)](https://travis-ci.org/YouYue123/iOS-Adhoc-Distribution)
 
-Instruction for end-to-end flow for AdHoc distribution website(Chinese version) -- [Link](https://youyue123.github.io/tech/2016/12/14/use-Node.js-Bluemix-build-iOS-distribution-website.html)
+Instruction for creating end-to-end AdHoc distribution website(Chinese version) -- [Link](https://youyue123.github.io/tech/2016/12/14/use-Node.js-Bluemix-build-iOS-distribution-website.html)
 
 ## [Demo](https://sample-ios-distribution.au-syd.mybluemix.net/)
 
