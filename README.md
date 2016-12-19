@@ -40,6 +40,6 @@ const config = {
   WEB_URL: 'https://sample-ios-distribution.au-syd.mybluemix.net'
 }
 ```
-3. replace the ipa and mainfest file in folder APP/
+3.replace the ipa and mainfest file in folder APP/
 ## Issue
 Feel free to give PR and issue comment
